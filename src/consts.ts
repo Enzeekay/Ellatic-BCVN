@@ -7,31 +7,31 @@ export const SITE_TITLE = "Bóng Cầu VN";
 export const SITE_DESCRIPTION = "Hội Bóng Cầu - Pickleball Việt Nam";
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroVerse - All Tags";
+export const Tags_TITLE = "Bóng Cầu VN";
 export const Tags_DESCRIPTION =
-  "AstroVerse - All tags and the count of articles related to each tag";
+  "Cộng đòng người Việt chơi môn Bóng Cầu- Pickleball";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in AstroVerse`,
-    description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
+    title: `Tất cả nội dung liên quan đến '${tag}' trên Bóng Cầu VN`,
+    description: `Tìm hiểu tất cả những nội dung liên quan đến ${tag} trên Bóng Cầu VN.`,
   };
 }
 
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in AstroVerse`,
-    description: `Browse all articles under the ${category} category in AstroVerse`,
+    title: `Tất cả bài về '${category}' trên Bóng Cầu VN`,
+    description: `Xem tất cả các bài về ${category} trên Bóng Cầu VN`,
   };
 }
 
 // Header Links, src/components/Header.astro
 export const HeaderLinks = [
-  { href: "/category/One/1/", title: "One" },
-  { href: "/category/Two/1/", title: "Two" },
-  { href: "/category/Three/1/", title: "Three" },
+  { href: "/category/One/1/", title: "Tin Tức" },
+  { href: "/category/Two/1/", title: "Hướng Dẫn" },
+  { href: "/category/Three/1/", title: "Trang Bị" },
 ];
 
 // Footer Links, src/components/Footer.astro
@@ -45,13 +45,13 @@ export const FooterLinks = [
 export const SocialLinks = [
   { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
   {
-    href: "https://twitter.com/astrodotbuild",
-    icon: "tabler:brand-twitter",
+    href: "https://facebook.com/bongcaudotcom",
+    icon: "tabler:brand-facebook",
     label: "Twitter",
   },
   {
-    href: "https://github.com/isooosi",
-    icon: "tabler:brand-github",
+    href: "https://twitter.com/bongcaudotcom",
+    icon: "tabler:brand-twitter",
     label: "GitHub",
   },
 ];
