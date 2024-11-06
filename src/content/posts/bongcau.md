@@ -8,7 +8,7 @@ tags:
   - Bong Cau
   - Pickeleball
   - Blog
-pubDate: 2024-11-07-01-28-00
+pubDate: 2024-11-07
 cover: https://imageio.forbes.com/specials-images/imageserve/6691959fdc6bf88e35f83fd6/2022-USA-Pickleball-West-Diamond-Regional/960x0.jpg?format=jpg&width=1440
 coverAlt: Bong Cau Pickleball la mon the thao hap dan danh cho moi lua tuoi, hay cung theo doi noi dung duoi day de cos cai nhin toan canh
 author: BongCau.VN
