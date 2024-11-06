@@ -1,5 +1,4 @@
----
-import { Picture } from "astro:assets";
+//import { Picture } from "astro:assets";
 
 interface Props {
   src: string;
@@ -25,13 +24,13 @@ const {
 } = Astro.props;
 ---
 
-<Picture
+<img
   src={src}
   alt={alt}
-  widths={widths}
-  sizes={sizes}
-  formats={formats}
-  fallbackFormat={fallbackFormat}
+  //widths={widths}
+  //sizes={sizes}
+  //formats={formats}
+  //fallbackFormat={fallbackFormat}
   class={className}
   inferSize
 />
