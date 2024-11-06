@@ -3,7 +3,7 @@ title: Bong Cau
 slug: bong-cau
 description: Bong Cau VN
 category:
-  - Tin Tuc
+  - Tin tức
 tags:
   - Bong Cau
   - Pickeleball

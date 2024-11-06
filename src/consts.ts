@@ -29,16 +29,16 @@ export function getCategoryMetadata(category: string) {
 
 // Header Links, src/components/Header.astro
 export const HeaderLinks = [
-  { href: "/category/One/1/", title: "Tin Tức" },
-  { href: "/category/Two/1/", title: "Hướng Dẫn" },
-  { href: "/category/Three/1/", title: "Trang Bị" },
+  { href: "/category/One/1/", title: "Tin tức" },
+  { href: "/category/Two/1/", title: "Hướng dẫn" },
+  { href: "/category/Three/1/", title: "Dụng cụ" },
 ];
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
-  { href: "/posts/why-astro/", title: "Astro" },
-  { href: "/posts/tailwind-typography/", title: "Tailwind" },
-  { href: "/tags/", title: "Tags" },
+  { href: "/posts/why-astro/", title: "Giới thiệu" },
+  { href: "/posts/tailwind-typography/", title: "Liên hệ" },
+  { href: "/tags/", title: "Danh mục" },
 ];
 
 // Social Links, src/components/Footer.astro
@@ -47,15 +47,15 @@ export const SocialLinks = [
   {
     href: "https://facebook.com/bongcaudotcom",
     icon: "tabler:brand-facebook",
-    label: "Twitter",
+    label: "Facebook",
   },
   {
     href: "https://twitter.com/bongcaudotcom",
     icon: "tabler:brand-twitter",
-    label: "GitHub",
+    label: "X (Twitter)",
   },
 ];
 
 // Search Page Metadata, src/pages/search.astro
-export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - Site Search`;
-export const SEARCH_PAGE_DESCRIPTION = `Search all content on ${SITE_TITLE}`;
+export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - Tìm kiếm`;
+export const SEARCH_PAGE_DESCRIPTION = `Tìm các nội dung có trên ${SITE_TITLE}`;
